@@ -7,8 +7,11 @@ position: 2
 
 ### Zaragoza
 
+<p align= 'justify'>
+<br>
+Zaragoza can be reached conveniently by train or bus from Madrid or Barcelona, and has a small international airport. 
 
-Zaragoza can be reached conveniently by train or bus from Madrid or Barcelona, and has a small airport on its own which services several european cities. More details on the location will be made public shortly! In the meantime, please do not hesitate to contact us for more information at <a href="mailto:jv.alegre@csic.es">jv.alegre@csic.es</a>.</p>
+More details on the location will be made public shortly! In the meantime, please do not hesitate to contact us for more information at <a href="mailto:jv.alegre@csic.es">jv.alegre@csic.es</a>.</p>
 
 <!--
 ### Residencia Universitaria de Jaca
