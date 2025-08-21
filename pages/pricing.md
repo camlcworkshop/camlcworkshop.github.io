@@ -5,7 +5,7 @@ feature-img: "assets/img/header/tab_back.png"
 position: 5
 ---
 
-###  Micro-credential registration fee and what is included
+###  Workshop registration fee and what is included
 
 * 450 EUR, it might be reduced depending on available sponsorship.<br><br>
 

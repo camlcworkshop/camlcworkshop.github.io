@@ -5,7 +5,7 @@ feature-img: "assets/img/header/tab_back.png"
 position: 3
 ---
 
-### Micro-credential schedule
+### Workshop schedule
 
 <html>
 <head>
