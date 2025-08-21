@@ -13,8 +13,6 @@ position: 7
 
 <p aligh="justify"> Thanks to the <a href='https://delegacion.aragon.csic.es/'>Delegación CSIC en Aragón</a> for allowing us to use their venue, which has substantially reduced the tuition price for all students.</p><br>
 
-<p align="justify">Thanks to the <a href='https://www.csic.es/en'>Consejo Superior de Investigaciones Científicas (CSIC)</a>, the <a href='https://www.ciencia.gob.es/en/'>Ministry of Science, Innovation and Universities of Spain (MCIN)</a>, and <a href='https://next-generation-eu.europa.eu/index_en'>NextGenerationEU</a>, the CAMLC25 has achieved the category of workshop. Additionally, these organizations provide funds to cover trips and maintenance for the professors.</p>
-
 <p aligh="justify">Thanks to the <a href='https://stara.rseq.org/'>Sección territorial de Aragón de la RSEQ</a>, one student will secure a spot to attend the workshop with a 50 EUR discount.</p> -->
 
 ### Become a sponsor
