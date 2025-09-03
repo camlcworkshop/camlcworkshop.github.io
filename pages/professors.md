@@ -39,7 +39,7 @@ position: 6
       </a>
     </td>
     <td>
-      <a href="https://www.nist.gov/people/heidi-klem">
+      <a href="https://klem-research-group.github.io/">
         <img src="../assets/img/people/heidi.png" width="200">
         <br><p style="text-align: center;">Dr. Heidi Klem</p>
       </a>
