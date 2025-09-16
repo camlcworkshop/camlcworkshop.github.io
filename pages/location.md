@@ -7,6 +7,9 @@ position: 2
 
 ### Zaragoza
 
+<p align= 'justify'>
+<br>
+Zaragoza can be reached conveniently by train or bus from Madrid or Barcelona, and has a small international airport. 
 
 Zaragoza (Spain) can be reached conveniently by train or bus from Madrid or Barcelona, and has a small airport on its own which services several european cities. Please do not hesitate to contact us for more information at <a href="mailto:camlcworkshop@gmail.com">camlcworkshop@gmail.com</a>.
 
