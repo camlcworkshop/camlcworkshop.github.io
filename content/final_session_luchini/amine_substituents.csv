@@ -1,0 +1,24 @@
+Name,SMILES,Description,Category
+Primary_amine,N,Simple primary amine,Aliphatic
+Methylamine,CN,Simple methylamine,Aliphatic
+Ethylamine,CCN,Simple ethylamine,Aliphatic
+Propylamine,CCCN,Simple propylamine,Aliphatic
+Isopropylamine,CC(C)N,Branched isopropylamine,Aliphatic
+Butylamine,CCCCN,Butylamine,Aliphatic
+Cyclopropylamine,C1CC1N,Cyclopropylamine,Cycloalkyl
+Cyclopentylamine,C1CCCC1N,Cyclopentylamine,Cycloalkyl
+Cyclohexylamine,C1CCCCC1N,Cyclohexylamine,Cycloalkyl
+Benzylamine,c1ccc(CN)cc1,Benzylamine,Aromatic
+Aniline,c1ccc(N)cc1,Aniline,Aromatic
+p-Methylaniline,Cc1ccc(N)cc1,4-Methylaniline,Aromatic
+p-Methoxyaniline,COc1ccc(N)cc1,4-Methoxyaniline,Aromatic
+p-Fluoroaniline,Fc1ccc(N)cc1,4-Fluoroaniline,Aromatic
+p-Chloroaniline,Clc1ccc(N)cc1,4-Chloroaniline,Aromatic
+Pyridine-4-amine,c1cncc(N)c1,4-Aminopyridine,Heteroaromatic
+Pyrimidine-2-amine,c1cnc(N)nc1,2-Aminopyrimidine,Heteroaromatic
+Morpholine,C1COCCN1,Morpholine,Heterocycle
+Piperidine,C1CCNCC1,Piperidine,Heterocycle
+Pyrrolidine,C1CCNC1,Pyrrolidine,Heterocycle
+Dimethylamine,CN(C),Dimethylamine,Secondary
+Diethylamine,CCN(CC),Diethylamine,Secondary
+Tert-butylamine,CC(C)(C)N,Tert-butylamine,Aliphatic
