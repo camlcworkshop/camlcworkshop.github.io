@@ -3,8 +3,8 @@ baseurl: ""
 url: "https://camlcworkshop.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: "CAMLC25" # site's title
-description: "Website of the CAMLC25 workshop"      # used by search engines
+title: "CAMLC" # site's title
+description: "Website of the CAMLC workshop"      # used by search engines
 avatar: assets/img/caml25_logo.png                         # Empty for no avatar in navbar
 favicon: assets/img/favicon.ico                             # Icon displayed in the tab
 
