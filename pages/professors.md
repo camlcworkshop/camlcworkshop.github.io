@@ -5,7 +5,7 @@ feature-img: "assets/img/header/tab_back.png"
 position: 6
 ---
 
-### Meet the CAMLC25 team
+### Meet the CAMLC team
 
 <html>
 <head>
@@ -41,7 +41,7 @@ position: 6
     <td>
       <a href="https://klem-research-group.github.io/">
         <img src="../assets/img/people/heidi.png" width="200">
-        <br><p style="text-align: center;">Dr. Heidi Klem</p>
+        <br><p style="text-align: center;">Prof. Heidi Klem</p>
       </a>
     </td>
     <td>
@@ -71,41 +71,15 @@ position: 6
       </a>
     </td>
     <td>
-      <a href="https://coley.mit.edu/">
-        <img src="../assets/img/people/coley.png" width="200">
-        <br><p style="text-align: center;">Prof. Connor Coley</p>
-      </a>
-    </td>
-    <td>
-      <a href="https://doyle.chem.ucla.edu/">
-        <img src="../assets/img/people/doyle.png" width="200">
-        <br><p style="text-align: center;">Prof. Abby Doyle</p>
-      </a>
-    </td>
-    <td>
-      <a href="https://www.sigmanlab.com/">
-        <img src="../assets/img/people/sigman.png" width="200">
-        <br><p style="text-align: center;">Prof. Matt Sigman</p>
-      </a>
-    </td>
-  <tr>
-  </tr>
-    <td>
       <a href="https://anatmilo.com/">
         <img src="../assets/img/people/milo.png" width="200">
         <br><p style="text-align: center;">Prof. Anat Milo</p>
       </a>
     </td>
     <td>
-      <a href="https://www.linkedin.com/in/guilianluchini/">
-        <img src="../assets/img/people/luchini.png" width="200">
-        <br><p style="text-align: center;">Dr. Luchini</p>
-      </a>
-    </td>
-    <td>
       <a href="https://www.linkedin.com/in/jcadge/">
         <img src="../assets/img/people/cadge.png" width="200">
-        <br><p style="text-align: center;">Dr. Jamie Cadge</p>
+        <br><p style="text-align: center;">Prof. Jamie Cadge</p>
       </a>
     </td>
     <td>
@@ -114,10 +88,56 @@ position: 6
         <br><p style="text-align: center;">Dr. Lucia Moran</p>
       </a>
     </td>
+  </tr>
+  <tr>
     <td>
-      <a href="https://scholar.google.com/citations?user=zsWx9ycAAAAJ&hl=es">
-        <img src="../assets/img/people/garcia.png" width="200">
-        <br><p style="text-align: center;">Dr. Susana Garcia</p>
+      <a href="https://www.uiocompcat.info/">
+        <img src="../assets/img/people/Balcells.png" width="200">
+        <br><p style="text-align: center;">Prof. David Balcells</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.duartegroupchem.org/">
+        <img src="../assets/img/people/Duarte.png" width="200">
+        <br><p style="text-align: center;">Prof. Fernanda Duarte</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://chab.ethz.ch/en/research/faculty/person-detail.kjorner.html">
+        <img src="../assets/img/people/Jorner.png" width="200">
+        <br><p style="text-align: center;">Prof. Kjell Jorner</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://iciq.org/research-group/prof-julio-lloret-fillol/overview/">
+        <img src="../assets/img/people/Lloret.png" width="200">
+        <br><p style="text-align: center;">Dr. Julio Lloret-Fillol</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://hesther.github.io/about/">
+        <img src="../assets/img/people/Heid.png" width="200">
+        <br><p style="text-align: center;">Prof. Esther Heid</p>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.jelfs-group.org/">
+        <img src="../assets/img/people/Jelfs.png" width="200">
+        <br><p style="text-align: center;">Prof. Kim Jelfs</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://schwallergroup.github.io/">
+        <img src="../assets/img/people/Schwaller.png" width="200">
+        <br><p style="text-align: center;">Prof. Philippe Schwaller</p>
+      </a>
+    </td>
+    <td>
+      <a href="https://orcid.org/0000-0002-5777-3771">
+        <img src="../assets/img/people/DeLescure.png" width="200">
+        <br><p style="text-align: center;">Dr. Louis de Lescure</p>
       </a>
     </td>
   </tr>
