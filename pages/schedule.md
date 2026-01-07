@@ -78,7 +78,7 @@ All tutorial and poster sessions will be held in person. Seminars will also be i
   </tr>
   <tr>
     <td colspan="2"><i>16:30 – 17:30 Seminar</i><br>2D and 3D representations and molecular descriptors<br><b>Prof: Paton</b></td>
-    <td><i>16:30 – 17:30 Seminar </i><br>Large language models in chemistry<br><b>Prof: Schwaller</b></td>
+    <td><i>16:30 – 17:30 Seminar </i><br>Language models in chemistry<br><b>Prof: Schwaller</b></td>
     <td><i>16:30 – 17:30 Seminar </i><br>Computational design of heterogeneous systems<br><b>Prof: Jelfs</b></td>
     <td style="border:none;"></td>
   </tr>
