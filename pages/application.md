@@ -14,7 +14,7 @@ Up to 35 attendees will be accepted. To register, applicants must complete the f
 </p><br>
 
 <p align="justify">
-<a href='https://docs.google.com/forms/d/e/1FAIpQLSdGBJUhrp9Pnw06d91G2Hb5-G6RYmMzagomtgaH-_aX4fyFTA/viewform?usp=header'>Application Form</a><br>
-<i>Deadline: February 4, 2026 (17:00 CET). Selected applicants will be notified no later than February 15.</i>
-<!-- <i>Applications are closed, selected applicants will be notified no later than April 6.</i> -->
+<!-- <a href='https://docs.google.com/forms/d/e/1FAIpQLSdGBJUhrp9Pnw06d91G2Hb5-G6RYmMzagomtgaH-_aX4fyFTA/viewform?usp=header'>Application Form</a><br>
+<i>Deadline: February 4, 2026 (17:00 CET). Selected applicants will be notified no later than February 15.</i> -->
+<i>Applications are closed, selected applicants will be notified no later than February 15.</i>
 </p><br>
