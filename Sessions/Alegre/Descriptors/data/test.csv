@@ -1,0 +1,5 @@
+SMILES,code_name
+CC1(C)N(O)CCC1(C)C,mol_2
+CC1(CCC(C)(N1O)C)C,mol_3
+CC1(C=CC(C)(N1O)C)C,mol_4
+CC1(CCCC(C)(N1O)C)C,mol_5
