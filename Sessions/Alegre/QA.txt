@@ -1,0 +1,7 @@
+- SMILES restrictions
+ - No dative bonds
+ - N ligand with no + charge
+ - NHC with --- bonds in NCN
+ - NHC ligands change to NH
+- Example catalyst, what descps? HOMO vs vbur in metal
+- Go to rtd to check cheatsheet
