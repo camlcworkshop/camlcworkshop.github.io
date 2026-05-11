@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_mcc,split
+ADAB,clas,5,1,0,mcc,Outcome,Name,"['6312', '8314']","{'learning_rate': 1.3753540542751057, 'n_estimators': 47, 'random_state': 0}",0.664970394174356,rnd

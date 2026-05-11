@@ -1,0 +1,114 @@
+ROBERT v 2.1.0 2026/02/25 19:06:58 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "Classification.csv" --y "Outcome" --names "Name" --type "clas" --repeat_kfolds "1"
+
+
+o  Representation of predictions and analysis of ML models with the PREDICT module
+
+
+------- Starting model with all variables (No PFI) -------
+
+o  Database ADAB_db.csv loaded successfully, including:
+   - 20 datapoints
+   - 3 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model No_PFI (with no PFI filter) and Xy database were loaded, including:
+   - Target value: Outcome
+   - Names: Name
+   - Model: ADAB
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['6312', '83', '8314']
+   - Training points: 16
+   - Test points: 4
+   o  Saving CSV databases with predictions and their SD in:
+      -  Predicted results of starting dataset: PREDICT/ADAB_No_PFI.csv
+
+   o  Saving graphs in:
+      -  Graph in: PREDICT/CV_train_valid_predict_ADAB_No_PFI.png
+      -  Graph in: PREDICT/Results_ADAB_No_PFI_test.png
+
+   o  Summary of results ADAB_No_PFI:
+      -  Points CV (train+valid.):Test = 16:4
+      -  Proportion CV (train+valid.):Test = 80:20
+      -  Number of descriptors = 3
+      -  Proportion (train+valid.) points:descriptors = 16:3
+      -  1x 5-fold CV : Accur. = 0.81, F1 score = 0.82, MCC = 0.63
+      -  Test : Accur. = 1.0, F1 score = 1.0, MCC = 1.0
+
+   o  SHAP plot saved in PREDICT/SHAP_ADAB_No_PFI.png
+      -  83 = min: -0.094, max: 0.61
+      -  6312 = min: -0.47, max: 0.37
+      -  8314 = min: -0.6, max: 0.16
+
+   o  PFI plot saved in PREDICT/PFI_ADAB_No_PFI.png
+      Influence on MCC
+      -  6312 = 0.75 +- 0.11
+      -  8314 = 0.42 +- 0.064
+      -  83 = 0.19 +- 0.1
+
+   o  The Pearson heatmap was stored in PREDICT/Pearson_heatmap_No_PFI.png.
+      Ideally, variables should show low correlations.
+      o  Correlations between variables are acceptable
+
+   o  y-values distribution plot saved in PREDICT/y_distribution_ADAB_No_PFI.png
+      Ideally, the number of datapoints in each prediction class should be uniform (50% population per class) to have similar reliability in the predictions across classes
+      - The number of points in each class is 0: 10, 1: 10
+      o  Your data seems quite uniform
+
+
+------- Starting model with PFI filter (only important descriptors used) -------
+
+o  Database ADAB_PFI_db.csv loaded successfully, including:
+   - 20 datapoints
+   - 3 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model PFI (with PFI filter) and Xy database were loaded, including:
+   - Target value: Outcome
+   - Names: Name
+   - Model: ADAB
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['6312', '8314']
+   - Training points: 16
+   - Test points: 4
+   o  Saving CSV databases with predictions and their SD in:
+      -  Predicted results of starting dataset: PREDICT/ADAB_PFI.csv
+
+   o  Saving graphs in:
+      -  Graph in: PREDICT/CV_train_valid_predict_ADAB_PFI.png
+      -  Graph in: PREDICT/Results_ADAB_PFI_test.png
+
+   o  Summary of results ADAB_PFI:
+      -  Points CV (train+valid.):Test = 16:4
+      -  Proportion CV (train+valid.):Test = 80:20
+      -  Number of descriptors = 2
+      -  Proportion (train+valid.) points:descriptors = 16:2
+      -  1x 5-fold CV : Accur. = 0.81, F1 score = 0.82, MCC = 0.63
+      -  Test : Accur. = 0.75, F1 score = 0.8, MCC = 0.58
+
+   o  SHAP plot saved in PREDICT/SHAP_ADAB_PFI.png
+      -  6312 = min: -0.56, max: 0.34
+      -  8314 = min: -0.66, max: 0.16
+
+   o  PFI plot saved in PREDICT/PFI_ADAB_PFI.png
+      Influence on MCC
+      -  6312 = 0.83 +- 0.22
+      -  8314 = 0.45 +- 0.064
+
+   o  The Pearson heatmap was stored in PREDICT/Pearson_heatmap_PFI.png.
+      Ideally, variables should show low correlations.
+      o  Correlations between variables are acceptable
+
+   o  y-values distribution plot saved in PREDICT/y_distribution_ADAB_PFI.png
+      Ideally, the number of datapoints in each prediction class should be uniform (50% population per class) to have similar reliability in the predictions across classes
+      - The number of points in each class is 0: 10, 1: 10
+      o  Your data seems quite uniform
+
+Time PREDICT: 10.08 seconds
+

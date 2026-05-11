@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_mcc,split
+NN,clas,5,1,0,mcc,Outcome,Name,"[""31"", ""32"", ""413"", ""5214"", ""6312"", ""6314"", ""7213""]","{""hidden_layer_1"": 6, ""hidden_layer_2"": 8, ""max_iter"": 246, ""alpha"": 0.010618180644391137, ""tol"": 1.8083750244458846e-05, ""random_state"": 0, ""solver"": ""lbfgs""}",0.4889822365046136,rnd

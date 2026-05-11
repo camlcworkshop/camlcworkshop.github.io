@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_mcc,split
+GB,clas,5,1,0,mcc,Outcome,Name,"[""12"", ""5213"", ""6312"", ""83"", ""831"", ""8314"", ""836""]","{""n_estimators"": 68, ""learning_rate"": 0.2362264118074097, ""max_depth"": 18, ""min_samples_split"": 9, ""min_samples_leaf"": 2, ""subsample"": 0.7807741635811005, ""max_features"": 0.400352160714441, ""validation_fraction"": 0.13627595639404955, ""min_weight_fraction_leaf"": 0.0427590812956663, ""ccp_alpha"": 0.003100226887312302, ""random_state"": 0}",0.4889822365046136,rnd

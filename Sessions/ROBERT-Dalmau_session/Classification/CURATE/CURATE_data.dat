@@ -1,0 +1,52 @@
+ROBERT v 2.1.0 2026/02/25 19:06:58 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "Classification.csv" --y "Outcome" --names "Name" --type "clas" --repeat_kfolds "1"
+
+
+o  Starting data curation with the CURATE module
+
+o  Database Classification.csv loaded successfully, including:
+   - 20 datapoints
+   - 25 accepted descriptors
+   - 1 ignored descriptors
+   - 0 discarded descriptors
+
+o  Analyzing categorical variables
+   - No categorical variables were found
+
+o  Duplication filters activated
+   Excluded datapoints:
+   -  No datapoints were removed
+
+o  Correlation filter activated with these thresholds: thres_x = 0.7
+   Excluded descriptors:
+
+   - 72 removed (R2 = 0.85 with 521), kept more predictive descriptor
+   - Total: 1 descriptors removed due to high correlation with other descriptors
+
+o  There are more descriptors than one-third of the data points. A Recursive Feature Elimination with Cross-Validation (RFECV) or permutation feature importance (PFI) using 1x 5_fold_cv will be performed to select the most relevant descriptors for each model
+
+   - ADAB: 3 descriptors selected (using RFECV)
+   - GB: 7 descriptors selected (using RFECV)
+   - NN: 7 descriptors selected (using PFI)
+   - RF: 3 descriptors selected (using RFECV)
+
+   o Model ADAB: 3 descriptors remaining:
+      6312, 83, 8314
+
+   o Model GB: 7 descriptors remaining:
+      12, 5213, 6312, 83, 831, 8314, 836
+
+   o Model NN: 7 descriptors remaining:
+      31, 32, 413, 5214, 6312, 6314, 7213
+
+   o Model RF: 3 descriptors remaining:
+      12, 32, 6312
+
+o  Model-specific curated databases were stored in C:\Users\D.Dalmau\OneDrive - unizar.es\Desktop\Curso ML Zrz\Clases\ROBERT\Classification\CURATE
+
+o  The Pearson heatmap was stored in CURATE/Pearson_heatmap.png.
+
+Time CURATE: 9.93 seconds
+

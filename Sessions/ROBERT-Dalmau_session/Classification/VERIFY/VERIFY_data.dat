@@ -1,0 +1,64 @@
+ROBERT v 2.1.0 2026/02/25 19:06:58 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "Classification.csv" --y "Outcome" --names "Name" --type "clas" --repeat_kfolds "1"
+
+
+o  Starting tests to verify the prediction ability of the ML models with the VERIFY module
+
+
+------- Starting model with all variables (No PFI) -------
+
+o  Database ADAB_db.csv loaded successfully, including:
+   - 20 datapoints
+   - 3 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model No_PFI (with no PFI filter) and Xy database were loaded, including:
+   - Target value: Outcome
+   - Names: Name
+   - Model: ADAB
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['6312', '83', '8314']
+   - Training points: 16
+   - Test points: 4
+
+   o  VERIFY plot saved in VERIFY/VERIFY_tests_ADAB_No_PFI.png
+      Results of flawed models and sorted cross-validation:
+      Original MCC (1x 5-fold CV) 0.63 - 15% & 30% threshold = 0.54 & 0.44
+         o y_mean: PASSED, MCC = 0.0, lower than thresholds
+         o y_shuffle: PASSED, MCC = 0.38, lower than thresholds
+         o onehot: PASSED, MCC = -0.26, lower than thresholds
+         - Sorted CV : Accuracy = [1.0, 0.67, 1.0, 0.67, 1.0], F1 score = [1.0, 0.0, 1.0, 0.67, 1.0], MCC = [1.0, 0.0, 1.0, 0.5, 1.0]
+
+
+------- Starting model with PFI filter (only important descriptors used) -------
+
+o  Database ADAB_PFI_db.csv loaded successfully, including:
+   - 20 datapoints
+   - 3 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model PFI (with PFI filter) and Xy database were loaded, including:
+   - Target value: Outcome
+   - Names: Name
+   - Model: ADAB
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['6312', '8314']
+   - Training points: 16
+   - Test points: 4
+
+   o  VERIFY plot saved in VERIFY/VERIFY_tests_ADAB_PFI.png
+      Results of flawed models and sorted cross-validation:
+      Original MCC (1x 5-fold CV) 0.63 - 15% & 30% threshold = 0.54 & 0.44
+         o y_mean: PASSED, MCC = 0.0, lower than thresholds
+         o y_shuffle: PASSED, MCC = 0.13, lower than thresholds
+         o onehot: PASSED, MCC = -0.26, lower than thresholds
+         - Sorted CV : Accuracy = [1.0, 0.67, 1.0, 0.67, 1.0], F1 score = [1.0, 0.0, 1.0, 0.67, 1.0], MCC = [1.0, 0.0, 1.0, 0.5, 1.0]
+
+Time VERIFY: 2.84 seconds
+
