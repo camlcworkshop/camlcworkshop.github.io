@@ -9,7 +9,7 @@ We used the Type on Strap theme to build the webpage.
 
 # Type on Strap 🎨
 
-[![Default Type on Strap blog](https://github.com/Sylhare/Type-on-Strap/blob/master/assets/img/screenshot.png?raw=true)](https://sylhare.github.io/Type-on-Strap/)
+https://github.com/Sylhare/Type-on-Strap
 
 A free and open-source [Jekyll](https://jekyllrb.com) theme. 
 Based on Rohan Chandra [type-theme](https://github.com/rohanchandra/type-theme) packed with extra features and easily customizable.
