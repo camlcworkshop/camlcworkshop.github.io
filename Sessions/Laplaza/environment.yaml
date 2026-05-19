@@ -1,0 +1,23 @@
+# gm-tutorial: genetic-algorithm molecule tutorial environment
+#
+# RDKit must come from conda-forge only. mol-ga on PyPI depends on rdkit, which
+# would install a conflicting PyPI wheel. We install a vendored mol_ga wheel whose
+# METADATA omits those deps (see packaging/patch_mol_ga_wheel.py).
+name: gm-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - pip
+  - rdkit>=2023.3
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - scikit-learn>=1.3
+  - joblib>=1.3
+  - ipykernel>=6.25
+  - nbclient>=0.10
+  - nbconvert>=7.0
+  - pip:
+      - ./packaging/vendor/mol_ga-0.2.1+conda-py3-none-any.whl
