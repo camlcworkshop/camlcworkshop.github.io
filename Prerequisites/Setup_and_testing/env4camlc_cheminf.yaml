@@ -1,0 +1,55 @@
+name: cheminf
+# ============================================================
+# Environment for:
+#   - Alegre    (conf_organics, conf_organometallics, QDESCP)
+#   - Cadge     (classifications, linear_regression)
+#   - Iribarren (python intro)
+#   - Klem      (QMzyme sessions)
+#   - Moran     (intro to cheminformatics)
+#   - ROBERT-Dalmau (ROBERT / AQME / easyrob GUI)
+# ============================================================
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - openbabel=3.1.1      # from previous YAML
+  - xtb=6.7.1            # from previous YAML
+  # install via conda where possible (more stable on Windows)
+  - rdkit
+  - numpy==2.3.4
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - MDAnalysis
+  - cclib
+  - jupyterlab
+  - jupyter
+  - pip
+  - pip:
+    # ── pinned from the workshop requirements.txt ──────────
+    - aqme==2.0.0
+    - robert==2.1.0
+    - PySide6==6.9.2
+    - PySide6-Addons==6.9.2
+    - PySide6-Essentials==6.9.2
+    - psutil
+    - requests==2.32.5
+    - ipykernel
+    - ipywidgets
+
+    # ── cheminformatics ────────────────────────────────────
+    - py3Dmol
+    - rmsd
+
+    # ── machine learning (Cadge) ───────────────────────────
+    - mlxtend
+
+    # ── GUI dependencies for easyrob.py (ROBERT-Dalmau) ───
+    - PyMuPDF               # provides 'fitz'
+    - ansi2html
+
+    # ── QMzyme (Klem session) ──────────────────────────────
+    - QMzyme
