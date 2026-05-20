@@ -1,0 +1,22 @@
+name: qmzyme
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # optional scientific stack
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - cclib
+
+  # install QMzyme from PyPI
+  - pip:
+      - QMzyme
+
+

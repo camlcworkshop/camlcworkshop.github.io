@@ -1,0 +1,30 @@
+name: baybe-env
+# ============================================================
+# Combined Environment for:
+#   - Stuyver   (Bayesian reaction optimization with BayBE)
+# ============================================================
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy==1.26.4
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - rdkit
+
+   # ── Cheminformatics & Jupyter ──────────────────────────
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+
+  - pip:
+    # ── BayBE (Stuyver session) ────────────────────────────
+    - baybe
+    - xyzpy                 # Required by baybe for optional functionality
+    - scikit-fingerprints   # Required by baybe for fingerprint-based parameters
+    - openpyxl              # Required by babe for Excel I/O
