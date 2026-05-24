@@ -4,3 +4,10 @@ channels:
 dependencies:
   - python==3.11
   - pip
+  - jupyterlab
+  - jupyter
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - numpy<=1.26.4
+  - rdkit

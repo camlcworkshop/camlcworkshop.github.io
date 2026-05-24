@@ -1,22 +1,29 @@
 @echo off
 setlocal enabledelayedexpansion
 
-# ===== Configuration =====
+REM ===== Configuration =====
 set "ENV_NAME=chemtorch"
-# =========================
+REM =========================
 
 REM Get current script directory
 set "SCRIPT_DIR=%~dp0"
 if "%SCRIPT_DIR:~-1%"=="\" set "SCRIPT_DIR=%SCRIPT_DIR:~0,-1%"
 
 REM Resolve to the Heid folder
-set "HEID_DIR=%SCRIPT_DIR%\..\Sessions\Heid"
-if not exist "%HEID_DIR%" set "HEID_DIR=%SCRIPT_DIR%\..\..\Sessions\Heid"
+set "HEID_DIR=%SCRIPT_DIR%\Sessions\Heid"
 
-REM Get absolute path for HEID_DIR
-pushd "%HEID_DIR%"
-set "HEID_DIR=%CD%"
-popd
+if not exist "%HEID_DIR%\environment.yml" (
+    set "HEID_DIR=%SCRIPT_DIR%\..\Sessions\Heid"
+)
+
+if not exist "%HEID_DIR%\environment.yml" (
+    echo ❌ Could not find environment.yml inside Sessions\Heid
+    pause
+    exit /b 1
+)
+
+REM Convert to absolute path
+for %%I in ("%HEID_DIR%") do set "HEID_DIR=%%~fI"
 
 set "CHEMTORCH_DIR=%HEID_DIR%\chemtorch"
 
@@ -58,32 +65,27 @@ if defined ENV_EXISTS (
     echo --^> Conda environment "%ENV_NAME%" already exists. Skipping creation.
 ) else (
     echo --^> Creating conda environment "%ENV_NAME%" from environment.yml...
-    pushd "%HEID_DIR%"
-    call conda env create -f environment.yml
+    echo --^> This might take a few minutes...
+
+    call conda env create -f "%HEID_DIR%\environment.yml"
     if errorlevel 1 (
         echo ❌ Failed to create conda environment. Aborting.
-        popd
         exit /b 1
     )
-    popd
 )
 
 REM 2) Install Python packages inside the environment
 echo --^> Installing core Python packages in "%ENV_NAME%"...
+echo --^> This might take a few minutes...
 call conda run -n "%ENV_NAME%" pip install ^
-    rdkit ^
-    numpy==1.26.4 ^
-    scikit-learn ^
-    pandas ^
     torch==2.10.0 ^
     hydra-core ^
     wandb ^
-    ipykernel ^
-    jupyter ^
-    matplotlib
+    ipykernel
 if errorlevel 1 exit /b 1
 
 echo --^> Installing PyTorch Geometric dependencies...
+echo --^> This might take a few minutes...
 call conda run -n "%ENV_NAME%" pip install ^
     torch_scatter ^
     torch_sparse ^
