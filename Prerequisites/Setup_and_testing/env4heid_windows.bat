@@ -13,7 +13,7 @@ REM Resolve to the Heid folder
 set "HEID_DIR=%SCRIPT_DIR%\Sessions\Heid"
 
 if not exist "%HEID_DIR%\environment.yml" (
-    set "HEID_DIR=%SCRIPT_DIR%\..\Sessions\Heid"
+    set "HEID_DIR=%SCRIPT_DIR%\..\..\Sessions\Heid"
 )
 
 if not exist "%HEID_DIR%\environment.yml" (
