@@ -1,0 +1,27 @@
+name: mlp-tutorial
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - jupyter
+  - numpy
+  - ase
+  - py3Dmol
+  - dm-tree=0.1.8
+  - rdkit
+  - scikit-learn
+  - pandas
+  - tqdm
+  - scipy
+
+  - pip:
+      - torch
+      - git+https://github.com/ACEsuit/mace.git@main
+      - git+https://github.com/WillBaldwin0/graph_electrostatics.git
+      - git+https://github.com/orbital-materials/orb-models
+      - sella
+      - mlfsm
