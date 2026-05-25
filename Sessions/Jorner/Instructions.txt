@@ -1,0 +1,15 @@
+# Machine learning potentials tutorial
+
+The tutorial is comprised of the following notebooks that should be done in the following order.
+
+1. `test_environment.ipynb`: Run this to check that you have everything installed properly and that the machine learning potentials are downloaded to your computer.
+1. `reactive_mlps.ipynb`: Investigates the use of machine learning potentials for chemical reactivity simulations.
+1. `descriptors.ipynb`: Investigates the use of machine learning potentials for descriptor calculations.
+
+## Installation
+
+Install the conda environment using the following command. After that, you need to select the environment `mlp-tutorial` as the active kernel for your notebook. Test that everything works by running the notebook `test_environment.ipynb`
+
+```
+conda env create --file environment.yaml
+```
